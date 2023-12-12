@@ -35,8 +35,7 @@
     </div>
     <script src="https://p.trellocdn.com/power-up.min.js"></script>
     <script type="text/javascript">
-window.addEventListener(`load`, () => {
-  window.TrelloPowerUp.initialize({
+window.TrelloPowerUp.initialize({
   "card-badges": function (t, opts) {
     let cardAttachments = opts.attachments; // Trello passes you the attachments on the card
     return t
@@ -71,9 +70,7 @@ window.addEventListener(`load`, () => {
         ];
       });
   },
-  }); // test
-  return;
-});
+}); // test
     </script>
   </body>
 </html>
